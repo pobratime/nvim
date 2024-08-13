@@ -17,6 +17,10 @@ return {
                     name = "Kanagawa",
                     colorscheme = "kanagawa",
                 },
+                {
+                    name = 'Aura',
+                    colorscheme = 'aura-theme',
+                },
             },
             livePreview = true, -- Apply theme while picking. Default to true.
         })

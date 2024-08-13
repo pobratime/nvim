@@ -26,14 +26,13 @@ return {
             "                                   ",
         }
         dashboard.section.buttons.val = {
-            dashboard.button('n', '    Create New File', ':ene <BAR> startinsert<CR>'),
-            dashboard.button('o', '    Open Existing File', ':Telescope oldfiles<CR>'),
-            dashboard.button('f', '󰥨    Telescope File', ':Telescope file_browser<CR>'),
-            dashboard.button('g', '󰱼    Telescope text', ':Telescope live_grep_args<CR>'),
-            dashboard.button('t', '    Select Theme', ':Themery<CR>'),
-            dashboard.button('l', '󰒲    Lazy', ':Lazy<CR>'),
+            dashboard.button('n', '    Create a New File', ':ene <BAR> startinsert<CR>'),
+            dashboard.button('r', '    Open a Recent File', ':Telescope oldfiles<CR>'),
+            dashboard.button('t', '󰥨    Telescope File', ':Telescope file_browser<CR>'),
+            dashboard.button('f', '󰱼    Telescope Text', ':Telescope live_grep_args<CR>'),
+            dashboard.button('c', '    Select Colorscheme', ':Themery<CR>'),
+            dashboard.button('l', '󰒲    LazyVim', ':Lazy<CR>'),
             dashboard.button('m', '󱌣    Mason', ':Mason<CR>'),
-            dashboard.button('p', '󰄉    Profile', ':Lazy profile<CR>'),
             dashboard.button('q', '󰭿    Quit', ':qa<CR>'),
         }
     end
