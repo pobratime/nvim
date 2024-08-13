@@ -1,1 +1,26 @@
-.DS_Store
+# Ignore Neovim swap files
+*.swp
+*.swo
+*.swn
+
+# Ignore Neovim session files
+Session.vim
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+
+# Ignore compiled Lua files
+*.luac
+
+# Ignore Neovim cache files
+*.nvim
+
+# Ignore package manager files (if you don't want to commit these)
+# For example, if you use lazy.nvim and don't want to push lock files
+lazy-lock.json
+
+# Ignore configuration specific to lazyvim (if applicable)
+lazyvim.json
+
+# Ignore any other local configuration or environment-specific files
