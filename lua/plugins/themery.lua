@@ -13,6 +13,10 @@ return {
                     name = "Catppuccin",
                     colorscheme = "catppuccin",
                 },
+                {
+                    name = "Kanagawa",
+                    colorscheme = "kanagawa",
+                },
             },
             livePreview = true, -- Apply theme while picking. Default to true.
         })
