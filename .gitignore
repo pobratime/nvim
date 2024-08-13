@@ -16,11 +16,12 @@ Session.vim
 # Ignore Neovim cache files
 *.nvim
 
-# Ignore package manager files (if you don't want to commit these)
-# For example, if you use lazy.nvim and don't want to push lock files
+# Ignore specific JSON files
 lazy-lock.json
-
-# Ignore configuration specific to lazyvim (if applicable)
 lazyvim.json
 
-# Ignore any other local configuration or environment-specific files
+# Ignore the `lua/plugins` directory if not needed
+lua/plugins/
+
+# Ignore macOS specific files
+.DS_Store
