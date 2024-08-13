@@ -30,7 +30,7 @@ return {
             dashboard.button('o', '    old files', ':Telescope oldfiles<CR>'),
             dashboard.button('f', '󰥨    find file', ':Telescope file_browser<CR>'),
             dashboard.button('g', '󰱼    find text', ':Telescope live_grep_args<CR>'),
-            dashboard.button('h', '    browse git', ':Flog<CR>'),
+            dashboard.button('h', '    Select Theme', ':Themery<CR>'),
             dashboard.button('l', '󰒲    Lazy', ':Lazy<CR>'),
             dashboard.button('m', '󱌣    Mason', ':Mason<CR>'),
             dashboard.button('p', '󰄉    Profile', ':Lazy profile<CR>'),
