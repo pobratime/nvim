@@ -18,8 +18,12 @@ return {
                     colorscheme = "kanagawa",
                 },
                 {
+                    name = 'Tokyonight',
+                    colorscheme = 'tokyonight',
+                },
+                {
                     name = 'Aura',
-                    colorscheme = 'aura-theme',
+                    colorscheme = 'aura',
                 },
             },
             livePreview = true, -- Apply theme while picking. Default to true.
