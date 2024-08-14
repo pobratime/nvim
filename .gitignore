@@ -20,8 +20,5 @@ Session.vim
 lazy-lock.json
 lazyvim.json
 
-# Ignore the `lua/plugins` directory if not needed
-lua/plugins/
-
 # Ignore macOS specific files
 .DS_Store
