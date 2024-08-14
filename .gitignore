@@ -1,24 +1,11 @@
-# Ignore Neovim swap files
 *.swp
 *.swo
 *.swn
-
-# Ignore Neovim session files
 Session.vim
-
-# Ignore temporary files and logs
 *.log
 *.tmp
-
-# Ignore compiled Lua files
 *.luac
-
-# Ignore Neovim cache files
 *.nvim
-
-# Ignore specific JSON files
 lazy-lock.json
 lazyvim.json
-
-# Ignore macOS specific files
 .DS_Store
