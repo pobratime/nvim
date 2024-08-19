@@ -34,8 +34,6 @@ return {
             dashboard.button('l', '󰒲    LazyVim', ':Lazy<CR>'),
             dashboard.button('m', '󱌣    Mason', ':Mason<CR>'),
             dashboard.button('q', '󰭿    Quit', ':qa<CR>'),
-            dashboard.button('?', '?    Help', ':<leader>?<CR>'),
-
         }
     end
 }
