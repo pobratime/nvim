@@ -10,6 +10,7 @@ require("which-key").setup({
     { "<leader>f", group = "find" },
     { "<leader>g", group = "git" },
     { "<leader>gh", group = "hunks" },
+    { "<leader>m", group = "make" },
     { "<leader>q", group = "quit" },
     { "<leader>s", group = "search" },
     { "<leader>u", group = "ui" },

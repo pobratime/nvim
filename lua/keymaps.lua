@@ -17,6 +17,13 @@ map("n", "<C-l>", "<C-w>l", { desc = "Window right" })
 map("n", "<leader>-", "<C-w>s", { desc = "Split below" })
 map("n", "<leader>|", "<C-w>v", { desc = "Split right" })
 
+-- Resize splits with Ctrl + arrows (macOS: turn off the Mission Control
+-- Ctrl + arrow shortcuts in System Settings > Keyboard > Keyboard Shortcuts)
+map("n", "<C-Up>", "<cmd>resize +2<cr>", { desc = "Taller" })
+map("n", "<C-Down>", "<cmd>resize -2<cr>", { desc = "Shorter" })
+map("n", "<C-Left>", "<cmd>vertical resize -2<cr>", { desc = "Narrower" })
+map("n", "<C-Right>", "<cmd>vertical resize +2<cr>", { desc = "Wider" })
+
 -- Quit / restart (restart reloads the whole config)
 map("n", "<leader>qq", "<cmd>qa<cr>", { desc = "Quit all" })
 map("n", "<leader>qr", "<cmd>restart<cr>", { desc = "Restart Neovim" })

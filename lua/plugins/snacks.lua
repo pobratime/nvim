@@ -29,6 +29,7 @@ map({ "n", "x" }, "<leader>sw", function() pick.grep_word() end, { desc = "Grep 
 map("n", "<leader>sd", function() pick.diagnostics_buffer() end, { desc = "Diagnostics (this file)" })
 map("n", "<leader>sD", function() pick.diagnostics() end, { desc = "Diagnostics (project)" })
 map("n", "<leader>ss", function() pick.lsp_symbols() end, { desc = "Symbols (this file)" })
+map("n", "<leader>sS", function() pick.lsp_workspace_symbols() end, { desc = "Symbols (project)" })
 map("n", "<leader>sh", function() pick.help() end, { desc = "Search help" })
 map("n", "<leader>sk", function() pick.keymaps() end, { desc = "Search keymaps" })
 map("n", "<leader>:", function() pick.command_history() end, { desc = "Command history" })
